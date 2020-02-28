@@ -1,0 +1,95 @@
+h1.frame{
+  color: gainsboro;
+  font: 18;
+
+}
+div.description{
+  color: wheat;
+  font: 11;
+}
+
+img.post{
+  padding-left: 10%;
+
+}
+
+div.imgTitle{
+  font: 16;
+  border-left: red;
+  color: green;
+}
+
+div.commentCard{
+  height: 90%;
+  width: 15%;
+  position: fixed;
+  left: 14%;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-top: 1%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: black;
+}
+
+button.postExpand{
+  background-color: indigo;
+  color: white;
+  border: none;
+  width: 60px;
+  height: 23px;
+  left: 14.5%;
+  position: fixed;
+  text-align: center;
+
+}
+
+div.imageContainer {
+  position: fixed;
+  left: 43.5%;
+  z-index: 4;
+}
+
+button.upArrow {
+  border: none;
+  position: fixed;
+  left: 48%;
+  top: 10%;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+}
+
+button.downArrow{
+  border: none;
+  position: fixed;
+  left: 48%;
+  top: 94%;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  z-index: 99  !important;
+}
+
+img.display {
+  vertical-align: middle;
+  max-height: 800px;
+  max-width: 1200px;
+  z-index: 1;
+}
+
+span.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+
+}
+
+.frame {
+  height: 85%;      /* Equals maximum image height */
+  width: 68.3%;
+  white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+  position: fixed;
+  text-align: center;
+  margin: 1em 0;
+}

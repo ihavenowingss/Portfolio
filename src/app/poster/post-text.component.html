@@ -1,0 +1,13 @@
+<div class="commentCard" [@openClose]="isOpen ? 'open' : 'closed'">
+  <button class="postExpand" (click)="toggle()">
+   {{ isOpen ? 'Hide' : 'Expand' }}
+  </button>
+
+
+
+  <tr *ngFor="let a of posts">
+    <td><h1 class= "title">{{ a.title }}</h1>
+    <img src="{{a.src}}" width="270">
+    <h2>{{ a.content }}</h2>   </td>
+  </tr>
+</div>
